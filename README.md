@@ -1,13 +1,8 @@
-# Slack Social Network
+# Electron Tutorial App
 
-### An Electron app to visualize social networks in a Slack team
+### A simple boilerplate to help learn about Electron
 
 <br/>
-
-[![Build Status][travis-image]][travis-url]
-[![Appveyor Build Status][appveyor-image]][appveyor-url]
-[![Dependency Status][david_img]][david_site]
-[![Github Tag][github-tag-image]][github-tag-url]
 
 [![React](/internals/img/react-padded-90.png)](https://facebook.github.io/react/)
 [![Webpack](/internals/img/webpack-padded-90.png)](https://webpack.github.io/)
@@ -17,8 +12,6 @@
 [![ESLint](/internals/img/eslint-padded-90.png)](http://eslint.org/)
 [![Jest](/internals/img/jest-padded-90.png)](https://facebook.github.io/jest/)
 [![Yarn](/internals/img/yarn-padded-90.png)](https://yarnpkg.com/)
-
-An application to be able to view social networks within a [Slack](https://slack.com/) team by looking at chat history. You can view any team that is found in [SlackArchive](https://slackarchive.io/)[Electron](http://electron.atom.io/) application built using [boilerplate](https://github.com/chentsulin/electron-react-boilerplate) code.
 
 ## Install
 
@@ -188,17 +181,3 @@ This project comes with Flow support out of the box! You can annotate your code 
 ## Native-like UI
 
 If you want to have native-like User Interface (OS X El Capitan and Windows 10), [react-desktop](https://github.com/gabrielbull/react-desktop) may perfect suit for you.
-
-## Dispatching redux actions from main process
-
-see discusses in [#118](https://github.com/chentsulin/electron-react-boilerplate/issues/118) and [#108](https://github.com/chentsulin/electron-react-boilerplate/issues/108)
-
-
-[github-tag-image]: https://img.shields.io/github/tag/colingm/slack-social-network.svg
-[github-tag-url]: https://github.com/colingm/slack-social-network/releases/latest
-[travis-image]: https://travis-ci.org/colingm/slack-social-network.svg?branch=master
-[travis-url]: https://travis-ci.org/colingm/slack-social-network
-[appveyor-image]: https://ci.appveyor.com/api/projects/status/github/colingm/slack-social-network?svg=true
-[appveyor-url]: https://ci.appveyor.com/project/colingm/slack-social-network/branch/master
-[david_img]: https://img.shields.io/david/colingm/slack-social-network.svg
-[david_site]: https://david-dm.org/colingm/slack-social-network
